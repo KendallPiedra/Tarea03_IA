@@ -1,4 +1,5 @@
-"""Construye data/mvtec_128.zip a partir de los .tar.xz originales de MVTec AD.
+"""A. Dataset
+Construye data/mvtec_128.zip a partir de los .tar.xz originales de MVTec AD.
 
 Lee los archivos sin extraerlos, redimensiona cada imagen a 128x128 RGB y
 conserva la estructura <clase>/train/good, <clase>/test/<tipo>. Se omite
