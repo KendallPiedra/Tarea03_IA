@@ -1,0 +1,6 @@
+name: vae
+z_dim: 128
+base_channels: 32
+loss: l1        # l1 | l2 | ssim | ssim_l1
+beta: 0.0001    # peso del término KL
+lr: 0.001

@@ -1,0 +1,4 @@
+max_epochs: 100
+accelerator: auto
+devices: 1
+viz_every_n_epochs: 10   # cada cuántas épocas se grafican reconstrucciones y t-SNE

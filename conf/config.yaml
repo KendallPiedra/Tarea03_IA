@@ -1,0 +1,14 @@
+defaults:
+  - model: vae
+  - trainer: default
+  - logger: wandb
+  - _self_
+
+seed: 42
+data:
+  root: /content/drive/MyDrive/Tarea3_IA_Encoder
+  classes: [cable, capsule, screw, transistor]
+  img_size: 128
+  batch_size: 32
+  num_workers: 2
+  val_split: 0.2
